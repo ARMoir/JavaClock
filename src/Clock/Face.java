@@ -2,8 +2,8 @@ package Clock;
 
 public class Face {
 	
-	 public static void SetFace()
-     {
+	public static void SetFace()
+	{
          Program.Clock.ClockString.append("   ~-------------~   " + System.lineSeparator());
          Program.Clock.ClockString.append(" ('..'11..12..1'..') " + System.lineSeparator());
          Program.Clock.ClockString.append("| :               : |" + System.lineSeparator());
@@ -18,5 +18,4 @@ public class Face {
          Program.Clock.ClockString.append(" ('..'7...6...5'..') " + System.lineSeparator());
          Program.Clock.ClockString.append("   ~-------------~   " + System.lineSeparator());
      }
-
 }
