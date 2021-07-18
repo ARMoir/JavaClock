@@ -40,12 +40,12 @@ public class Program
 			var Time = ZonedDateTime.now();
 			Clock.Hours = Time.getHour();
 			Clock.Minutes = Time.getMinute();
-            Clock.Seconds = Time.getSecond();
-            Clock.Minute = Clock.Minutes % 10;
+			Clock.Seconds = Time.getSecond();
+			Clock.Minute = Clock.Minutes % 10;
             
-            Hour.SetHour();
-            Minute.SetMinute();
-            Second.SetSecond();
+			Hour.SetHour();
+			Minute.SetMinute();
+			Second.SetSecond();
 			
 			for (int i = 0; i< Clock.ClockChar.size(); i++)
 			{
