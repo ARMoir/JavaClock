@@ -2,6 +2,7 @@ package Clock;
 
 public class Second 
 {
+	
 	public static void SetSecond()
     {
 
