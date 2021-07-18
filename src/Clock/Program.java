@@ -39,7 +39,7 @@ public class Program
 			//Get the Current Time
 			var Time = ZonedDateTime.now();
 			Clock.Hours = Time.getHour();
-            Clock.Minutes = Time.getMinute();
+			Clock.Minutes = Time.getMinute();
             Clock.Seconds = Time.getSecond();
             Clock.Minute = Clock.Minutes % 10;
             
